@@ -1,0 +1,17 @@
+{
+  "name": "google-keep-clone",
+  "version": "1.0.0",
+  "repository": "git@github.com:davidgj94/google-keep-clone.git",
+  "author": "David Gallardo <davidgj1994@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {    
+    "start:frontend": "yarn --cwd frontend start",
+    "start:backend": "yarn --cwd backend dev"
+ }
+}
